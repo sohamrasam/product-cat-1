@@ -177,9 +177,10 @@ div.chemical-lumps{
   #check:checked ~ .navlinks {
     right: 0;
   }
+
 }
 
-@media (max-width: 360px) {
+@media (max-width: 710px) {
   .logo {
     margin-left: 10px;
     font-size: 25px;
@@ -193,7 +194,6 @@ div.chemical-lumps{
   .menu-btn:focus {
     color: blue;
   }
-}
 .background{
   margin-top: 10px;
   position: relative;
@@ -208,4 +208,17 @@ div.chemical-lumps{
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+.card{
+  background-color: white;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.card-image{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 15px;
+
+}
 }
